@@ -2,12 +2,14 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: dfca09816171632021f5e3b50aef003b9833e04549d9d3ff1f467f6285d20a75
+-- hash: d4fc95bbf06245152a896d2335dbf756d2cbcd8b4b8edf624b35e82037907af0
 
 name:           hsmodetweaks
 version:        0.1.0.0
+synopsis:       Tool for generating .dir-locals.el for intero
+description:    Keeps .dir-locals.el up to date so that intero can automatically choose the right targets
 category:       Tools
-homepage:       https://github.com/mwotton/hsmodetweaks#readme
+homepage:       https://github.com/mwotton/scriptable/#hsmodetweaks
 author:         mwotton@gmail.com
 maintainer:     mwotton@gmail.com
 copyright:      2018 Mark Wotton
