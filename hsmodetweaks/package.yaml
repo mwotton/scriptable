@@ -1,0 +1,24 @@
+name:                hsmodetweaks
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/mwotton/hsmodetweaks#readme
+license:             BSD3
+author:              mwotton@gmail.com
+maintainer:          mwotton@gmail.com
+copyright:           2018 Mark Wotton
+category:            Language
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - containers
+  - directory
+  - hpack >= 0.25
+  - protolude
+  - text
+executables:
+  hsmodetweaks:
+    source-dirs:      app
+    main:             Main.hs

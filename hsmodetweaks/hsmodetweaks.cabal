@@ -1,0 +1,35 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 396f04bd337198b6888f2904e5a217f79a2b3bab248651fb04532a2a2bf0117c
+
+name:           hsmodetweaks
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/hsmodetweaks#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable hsmodetweaks
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , directory
+    , hpack >=0.25
+    , protolude
+    , text
+  other-modules:
+      Paths_hsmodetweaks
+  default-language: Haskell2010
