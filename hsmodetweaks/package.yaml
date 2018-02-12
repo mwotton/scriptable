@@ -7,7 +7,7 @@ license:             BSD3
 author:              mwotton@gmail.com
 maintainer:          mwotton@gmail.com
 copyright:           2018 Mark Wotton
-category:            Language
+category:            Tools
 extra-source-files:
 - README.md
 
