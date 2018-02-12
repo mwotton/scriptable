@@ -2,15 +2,15 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 396f04bd337198b6888f2904e5a217f79a2b3bab248651fb04532a2a2bf0117c
+-- hash: dfca09816171632021f5e3b50aef003b9833e04549d9d3ff1f467f6285d20a75
 
 name:           hsmodetweaks
 version:        0.1.0.0
-category:       Web
-homepage:       https://github.com/githubuser/hsmodetweaks#readme
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2018 Author name here
+category:       Tools
+homepage:       https://github.com/mwotton/hsmodetweaks#readme
+author:         mwotton@gmail.com
+maintainer:     mwotton@gmail.com
+copyright:      2018 Mark Wotton
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple

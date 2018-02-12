@@ -1,7 +1,8 @@
 name:                hsmodetweaks
 version:             0.1.0.0
-#synopsis:
-#description:
+synopsis:            Tool for generating .dir-locals.el for intero
+description:         Keeps .dir-locals.el up to date so that intero can
+                     automatically choose the right targets
 homepage:            https://github.com/mwotton/hsmodetweaks#readme
 license:             BSD3
 author:              mwotton@gmail.com
