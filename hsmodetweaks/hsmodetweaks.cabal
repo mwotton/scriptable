@@ -2,10 +2,10 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d4fc95bbf06245152a896d2335dbf756d2cbcd8b4b8edf624b35e82037907af0
+-- hash: c5a933aa9d114e47827ce54699d30dda837288cbcb6a8e7615f0d76271327286
 
 name:           hsmodetweaks
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       Tool for generating .dir-locals.el for intero
 description:    Keeps .dir-locals.el up to date so that intero can automatically choose the right targets
 category:       Tools
@@ -21,15 +21,34 @@ cabal-version:  >= 1.10
 extra-source-files:
     README.md
 
-executable hsmodetweaks
-  main-is: Main.hs
+library
   hs-source-dirs:
-      app
+      src
+  ghc-options: -Wall -Werror
   build-depends:
       base >=4.7 && <5
     , containers
     , directory
     , hpack >=0.25
+    , protolude
+    , text
+  exposed-modules:
+      ExtractTargets
+  other-modules:
+      Paths_hsmodetweaks
+  default-language: Haskell2010
+
+executable hsmodetweaks
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Werror
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , directory
+    , hpack >=0.25
+    , hsmodetweaks
     , protolude
     , text
   other-modules:

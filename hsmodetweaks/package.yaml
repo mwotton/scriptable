@@ -12,6 +12,11 @@ category:            Tools
 extra-source-files:
 - README.md
 
+ghc-options:
+  - -Wall
+library:
+  source-dirs: src
+
 dependencies:
   - base >= 4.7 && < 5
   - containers
@@ -23,3 +28,4 @@ executables:
   hsmodetweaks:
     source-dirs:      app
     main:             Main.hs
+    dependencies: hsmodetweaks
